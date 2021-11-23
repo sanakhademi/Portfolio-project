@@ -1,7 +1,45 @@
-body {
-  background-color: aqua;
+h1,
+h2,
+p {
+  font-family: "Raleway", sans-serif;
+  color: #2b333e;
 }
+p {
+  font-size: 36px;
+  font-weight: regular;
+}
+
 h1 {
-  font-family: "Cabin", sans-serif;
-  font-size: 24px;
+  font-size: 96px;
+  margin-bottom: 60px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+.welcome-section {
+  text-align: center;
+  background-color: #dae4e2;
+  display: flex;
+}
+.logo-items {
+  display: flex;
+  flex-direction: column;
+}
+.logo-items .icons {
+  font-size: 50px;
+  margin-top: 40px;
+}
+.greeting {
+  margin-bottom: 0;
+}
+.detailed-info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 400px;
+  margin-bottom: 20px;
+}
+.right-info {
+  margin-top: 13px;
 }
