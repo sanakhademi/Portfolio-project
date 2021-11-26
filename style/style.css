@@ -1,7 +1,11 @@
+:root {
+  --menu-buttons-font-family: "Poppins", sans-serif;
+  --headings-text-font-family: "Raleway", sans-serif;
+}
 h1,
 h2,
 p {
-  font-family: "Raleway", sans-serif;
+  font-family: var(--headings-text-font-family);
   color: #2b333e;
 }
 p {
@@ -50,19 +54,18 @@ h2 {
 .right-info {
   margin-top: 13px;
 }
-.btn-primary {
+.about-button {
   background-color: #2b333e;
   color: #ffffffff;
   font-size: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--menu-buttons-font-family);
   font-weight: bold;
   padding: 18px 55px;
   border-radius: 8px;
   margin-top: 70px;
-
   line-height: 27px;
 }
-.btn-primary:hover {
+.about-button:hover {
   color: #eeaba2;
 
   background-color: #2b333e;
