@@ -11,35 +11,62 @@ p {
 
 h1 {
   font-size: 96px;
+  margin-top: 30px;
   margin-bottom: 60px;
+  line-height: 112.7px;
 }
 
 h2 {
   font-size: 22px;
+  line-height: 28px;
 }
 
 .welcome-section {
   text-align: center;
   background-color: #dae4e2;
   display: flex;
+  padding-top: 170px;
+  padding-bottom: 90px;
 }
+.intro {
+  text-align: center;
+}
+
 .logo-items {
   display: flex;
   flex-direction: column;
 }
 .logo-items .icons {
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 40px;
 }
 .greeting {
   margin-bottom: 0;
+  line-height: 42.26px;
 }
 .detailed-info {
   display: flex;
   flex-direction: row;
   margin-left: 400px;
-  margin-bottom: 20px;
+  text-align: center;
 }
 .right-info {
   margin-top: 13px;
+}
+.btn-primary {
+  background-color: #2b333e;
+  color: #ffffffff;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding: 18px 55px;
+  border-radius: 8px;
+  margin-top: 70px;
+
+  line-height: 27px;
+}
+.btn-primary:hover {
+  color: #eeaba2;
+
+  background-color: #2b333e;
 }
