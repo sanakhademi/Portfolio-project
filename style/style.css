@@ -5,6 +5,7 @@
   --baby-blue: #dae4e2;
   --light-pink: rgba(238, 171, 162, 0.5);
 }
+
 h1,
 h2,
 p {
@@ -30,6 +31,7 @@ h2 {
 
 .first-row {
   max-width: 100%;
+  margin: auto;
 }
 .welcome-section {
   background-color: var(--baby-blue);
