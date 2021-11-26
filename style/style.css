@@ -3,7 +3,7 @@
   --headings-text-font-family: "Raleway", sans-serif;
   --primary-color: #2b333e;
   --baby-blue: #dae4e2;
-  --light-pink: #eeaba2;
+  --light-pink: rgba(238, 171, 162, 0.5);
 }
 h1,
 h2,
@@ -75,6 +75,33 @@ h2 {
 .second-row {
   background-color: var(--light-pink);
   max-width: 100%;
+  padding: 50px 0;
 }
-.projects {
+.project-heading {
+  font-size: 36px;
+  color: var(--primary-color);
+  line-height: 42px;
+}
+.project-grid {
+  margin-left: 30px;
+}
+
+.project-images {
+  max-width: 85%;
+  border-radius: 10px;
+}
+.project-buttons {
+  background-color: var(--primary-color);
+  color: #ffffffff;
+  font-size: 14px;
+  font-family: var(--menu-buttons-font-family);
+  font-weight: bold;
+  padding: 11px 34px;
+  border-radius: 8px;
+  margin-top: 30px;
+  line-height: 20px;
+  margin-left: 10px;
+}
+.project-buttons:hover {
+  color: var(--light-pink);
 }
