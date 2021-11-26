@@ -28,15 +28,14 @@ h2 {
   line-height: 28px;
 }
 
+.first-row {
+  max-width: 100%;
+}
 .welcome-section {
-  text-align: center;
   background-color: var(--baby-blue);
-  display: flex;
+
   padding-top: 170px;
   padding-bottom: 90px;
-}
-.intro {
-  text-align: center;
 }
 
 .logo-items {
