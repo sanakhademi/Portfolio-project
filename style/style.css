@@ -45,10 +45,7 @@ h2 {
   line-height: 42.26px;
 }
 .detailed-info {
-  display: flex;
-  flex-direction: row;
-  margin-left: 400px;
-  text-align: center;
+  display: inline-flex;
 }
 .right-info {
   margin-top: 13px;
