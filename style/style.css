@@ -1,12 +1,15 @@
 :root {
   --menu-buttons-font-family: "Poppins", sans-serif;
   --headings-text-font-family: "Raleway", sans-serif;
+  --primary-color: #2b333e;
+  --baby-blue: #dae4e2;
+  --light-pink: #eeaba2;
 }
 h1,
 h2,
 p {
   font-family: var(--headings-text-font-family);
-  color: #2b333e;
+  color: var(--primary-color);
 }
 p {
   font-size: 36px;
@@ -27,7 +30,7 @@ h2 {
 
 .welcome-section {
   text-align: center;
-  background-color: #dae4e2;
+  background-color: var(--baby-blue);
   display: flex;
   padding-top: 170px;
   padding-bottom: 90px;
@@ -55,7 +58,7 @@ h2 {
   margin-top: 13px;
 }
 .about-button {
-  background-color: #2b333e;
+  background-color: var(--primary-color);
   color: #ffffffff;
   font-size: 18px;
   font-family: var(--menu-buttons-font-family);
@@ -66,7 +69,7 @@ h2 {
   line-height: 27px;
 }
 .about-button:hover {
-  color: #eeaba2;
+  color: var(--light-pink);
 
-  background-color: #2b333e;
+  background-color: var(--primary-color);
 }
