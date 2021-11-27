@@ -5,7 +5,10 @@
   --baby-blue: #dae4e2;
   --light-pink: rgba(238, 171, 162, 0.5);
 }
-
+html,
+body {
+  overflow-x: hidden;
+}
 h1,
 h2,
 p {
