@@ -235,8 +235,9 @@ h2 {
   line-height: 38px;
   font-family: var(--headings-text-font-family);
   font-weight: 500;
+  text-align: left;
 }
 .profile-image {
   max-width: 200px;
-  display: inline-block;
+  border-radius: 20px;
 }
