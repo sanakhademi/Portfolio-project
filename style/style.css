@@ -218,3 +218,25 @@ h2 {
     margin-top: 20px;
   }
 }
+
+/* about page */
+.about-heading {
+  font-size: 72px;
+}
+
+.about-section {
+  background-color: var(--baby-blue);
+  max-width: 100%;
+  text-align: center;
+}
+
+.about-description {
+  font-size: 32px;
+  line-height: 38px;
+  font-family: var(--headings-text-font-family);
+  font-weight: 500;
+}
+.profile-image {
+  max-width: 200px;
+  display: inline-block;
+}
