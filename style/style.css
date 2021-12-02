@@ -285,7 +285,41 @@ h2 {
   font-family: var(--headings-text-font-family);
   font-weight: 600;
 }
+
+.html-css-js-img {
+  max-width: 250px;
+}
 .boot-icon {
   color: #5b269d;
   font-size: 50px;
+}
+.vs-img {
+  max-width: 50px;
+}
+.git-icon {
+  font-size: 50px;
+}
+.figma-img {
+  max-width: 50px;
+}
+.invision-img {
+  max-width: 50px;
+}
+.github-icon {
+  font-size: 50px;
+}
+.responsive-img {
+  max-width: 225px;
+}
+.api-img {
+  max-width: 50px;
+}
+.seo-img {
+  max-width: 300px;
+}
+.hosting-img {
+  max-width: 300px;
+}
+.netlify-img {
+  max-width: 50px;
 }
