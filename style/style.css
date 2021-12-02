@@ -288,6 +288,7 @@ h2 {
 
 .html-css-js-img {
   max-width: 250px;
+  margin-top: 30px;
 }
 .boot-icon {
   color: #5b269d;
@@ -303,7 +304,8 @@ h2 {
   max-width: 50px;
 }
 .invision-img {
-  max-width: 50px;
+  max-width: 45px;
+  margin: 0px 10px 25px;
 }
 .github-icon {
   font-size: 50px;
@@ -322,4 +324,7 @@ h2 {
 }
 .netlify-img {
   max-width: 50px;
+}
+.eight-icons {
+  margin: 200px auto;
 }
