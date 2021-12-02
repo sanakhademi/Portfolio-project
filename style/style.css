@@ -285,3 +285,7 @@ h2 {
   font-family: var(--headings-text-font-family);
   font-weight: 600;
 }
+.boot-icon {
+  color: #5b269d;
+  font-size: 50px;
+}
