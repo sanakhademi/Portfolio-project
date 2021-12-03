@@ -332,3 +332,35 @@ h2 {
 .eight-icons {
   margin: 190px auto;
 }
+
+@media (max-width: 576px) {
+  .about-logo-items {
+    display: none;
+  }
+  .about-heading {
+    font-size: 45px;
+  }
+  .about-section {
+    padding: 20px 0;
+  }
+  .about-description {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 225px;
+    margin-left: 15px;
+  }
+  .profile-image {
+    max-width: 120px;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  .contact-button {
+    font-size: 16px;
+    font-family: var(--menu-buttons-font-family);
+    font-weight: bold;
+    padding: 12px 35px;
+    border-radius: 8px;
+    margin-left: 150px;
+    line-height: 1.5;
+  }
+}
