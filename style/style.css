@@ -295,10 +295,10 @@ h2 {
   font-size: 50px;
 }
 .vs-img {
-  max-width: 50px;
+  max-width: 45px;
 }
 .git-icon {
-  font-size: 50px;
+  font-size: 60px;
 }
 .figma-img {
   max-width: 50px;
@@ -310,20 +310,25 @@ h2 {
   font-size: 50px;
 }
 .responsive-img {
-  max-width: 225px;
+  margin-top: 38px;
+  max-width: 250px;
 }
 .api-img {
   max-width: 50px;
 }
 .seo-img {
-  max-width: 300px;
+  max-width: 400px;
+  margin-left: -67px;
+  margin-top: -15px;
 }
 .hosting-img {
   max-width: 300px;
+  margin-top: -40px;
+  margin-left: -20px;
 }
 .netlify-img {
   max-width: 50px;
 }
 .eight-icons {
-  margin: 200px auto;
+  margin: 190px auto;
 }
