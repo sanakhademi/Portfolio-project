@@ -262,11 +262,11 @@ h2 {
   font-size: 18px;
   font-family: var(--menu-buttons-font-family);
   font-weight: bold;
-  padding: 18px 55px;
+  padding: 22px;
   border-radius: 8px;
-  margin-top: 70px;
-  margin-left: 250px;
+  margin: 45px auto 0;
   line-height: 27px;
+  max-width: 200px;
 }
 .contact-button:hover {
   color: var(--light-pink);
@@ -341,7 +341,7 @@ h2 {
     font-size: 45px;
   }
   .about-section {
-    padding: 20px 0;
+    padding: 20px 0 50px;
   }
   .about-description {
     font-size: 16px;
@@ -355,12 +355,12 @@ h2 {
     margin-top: 15px;
   }
   .contact-button {
-    font-size: 16px;
+    font-size: 14px;
     font-family: var(--menu-buttons-font-family);
     font-weight: bold;
-    padding: 12px 35px;
-    border-radius: 8px;
-    margin-left: 150px;
+    padding: 15px 25px;
+    max-width: 160px;
     line-height: 1.5;
+    margin: 10px 0 0 150px;
   }
 }
