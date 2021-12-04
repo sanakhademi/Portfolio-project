@@ -363,4 +363,19 @@ h2 {
     line-height: 1.5;
     margin: 10px 0 0 150px;
   }
+  .skill-two {
+    display: flex;
+    flex-direction: row;
+  }
+  .html-css-js-img {
+    display: flex;
+    margin-top: 65px;
+    max-width: 170px;
+  }
+
+  .seo-img {
+    max-width: 200px;
+    display: flex;
+    margin: 0;
+  }
 }
