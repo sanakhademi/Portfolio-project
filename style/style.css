@@ -381,3 +381,40 @@ h2 {
     margin-top: 10px;
   }
 }
+@media (max-width: 768px) {
+  .about-logo-items {
+    margin-left: 30px;
+  }
+
+  .about-description {
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 245px;
+    margin-left: 65px;
+  }
+  .profile-image {
+    max-width: 120px;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  .profile-image {
+    max-width: 200px;
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+  .html-css-js-img {
+    margin-top: 50px;
+  }
+  .seo-img {
+    margin: 0;
+  }
+  .first-row {
+    margin-bottom: 50px;
+  }
+  .third-row-icons {
+    margin-left: 165px;
+  }
+  .eight-icons {
+    margin: 0 auto 80px;
+  }
+}
