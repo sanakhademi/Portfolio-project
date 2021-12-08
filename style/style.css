@@ -371,8 +371,13 @@ h2 {
   .seo-img {
     margin-left: -59px;
   }
-
   .eight-icons {
     margin: 20px auto;
+  }
+  .first-row-icons {
+    margin-bottom: 40px;
+  }
+  .hosting-img {
+    margin-top: 10px;
   }
 }
