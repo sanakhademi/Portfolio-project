@@ -332,7 +332,7 @@ h2 {
 .eight-icons {
   margin: 190px auto;
 }
-
+/* for mobile phones */
 @media (max-width: 576px) {
   .about-logo-items {
     display: none;
@@ -381,7 +381,51 @@ h2 {
     margin-top: 10px;
   }
 }
-@media (max-width: 768px) {
+/* for very small screens */
+@media (max-width: 375px) {
+  .profile-image {
+    max-width: 90px;
+  }
+  .about-description {
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 160px;
+    margin-left: 28px;
+  }
+  .about-heading {
+    margin: 0 auto 20px;
+  }
+  .contact-button {
+    margin: 20px 0 0 108px;
+    font-size: 12px;
+    padding: 12px 25px;
+    max-width: 125px;
+  }
+  .html-css-js-img {
+    padding: 0;
+    margin-left: -30px;
+  }
+  .seo-img {
+    margin-left: -106px;
+  }
+  .first-row-icons {
+    padding: 5px;
+  }
+  .small-mobile {
+    padding: 7px;
+  }
+  .api-img {
+    margin-bottom: 10px;
+  }
+  .hosting-img {
+    margin-left: -62px;
+  }
+  .responsive-img {
+    margin-left: -30px;
+  }
+}
+/* for tablets */
+@media (min-width: 577px) and (max-width: 768px) {
   .about-logo-items {
     margin-left: 30px;
   }
