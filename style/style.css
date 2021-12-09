@@ -111,6 +111,39 @@ h2 {
   color: var(--light-pink);
 }
 
+.contact-section {
+  background-color: var(--baby-blue);
+  max-width: 100%;
+  text-align: center;
+  padding: 50px;
+}
+.contact-header {
+  font-size: 36px;
+  font-family: var(--headings-text-font-family);
+}
+.contact-intro {
+  font-size: 24px;
+  line-height: 42.26px;
+  max-width: 50%;
+  margin: 20px auto;
+  font-weight: 500;
+}
+.contact-form {
+  margin: 50px auto;
+}
+.name-box {
+  max-width: 40%;
+  margin: 10px auto;
+  border-radius: 15px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.text-area {
+  width: 40%;
+  margin: 10px auto;
+  border-radius: 15px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 62px;
