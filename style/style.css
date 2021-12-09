@@ -462,3 +462,30 @@ h2 {
     margin: 0 auto 80px;
   }
 }
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .about-logo-items {
+    margin-left: 25px;
+  }
+  .about-description {
+    margin-left: 150px;
+    font-size: 26px;
+    line-height: 36px;
+  }
+  .profile-image {
+    margin-left: 65px;
+  }
+  .icons-large {
+    margin-left: -40px;
+  }
+  .eight-icons {
+    margin-left: 30px;
+  }
+  .seo-img {
+    margin-left: -77px;
+    margin-top: 10px;
+  }
+  .responsive-img {
+    margin-top: 55px;
+  }
+}
