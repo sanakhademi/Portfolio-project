@@ -9,6 +9,20 @@ html,
 body {
   overflow-x: hidden;
 }
+
+.menu {
+  background-color: var(--primary-color);
+}
+
+.site-name {
+  font-size: 24px;
+  color: white;
+}
+.link-titles {
+  color: white;
+  font-size: 18px;
+}
+
 h1,
 h2,
 p {
