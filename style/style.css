@@ -16,11 +16,11 @@ body {
 
 .site-name {
   font-size: 24px;
-  color: white;
+  font-family: var(--menu-buttons-font-family);
 }
 .link-titles {
-  color: white;
   font-size: 18px;
+  font-family: var(--menu-buttons-font-family);
 }
 
 h1,
