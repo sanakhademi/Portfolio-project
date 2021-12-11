@@ -180,6 +180,24 @@ h2 {
   background-color: var(--primary-color);
 }
 
+.footer-section {
+  background-color: var(--primary-color);
+  max-width: 100%;
+}
+footer {
+  color: white;
+}
+.contact-details {
+  display: block;
+}
+.footer-menu {
+  list-style: none;
+}
+.footer-menu a {
+  text-decoration: none;
+  color: white;
+}
+
 @media (max-width: 576px) {
   .site-name {
     font-size: 20px;
