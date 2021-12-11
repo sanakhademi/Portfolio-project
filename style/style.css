@@ -183,7 +183,7 @@ h2 {
 .footer-section {
   background-color: var(--primary-color);
   max-width: 100%;
-  padding: 50px;
+  padding: 50px 50px 20px;
 }
 footer {
   color: #fef8f8;
