@@ -183,19 +183,40 @@ h2 {
 .footer-section {
   background-color: var(--primary-color);
   max-width: 100%;
+  padding: 50px;
 }
 footer {
-  color: white;
+  color: #fef8f8;
+  font-family: var(--menu-buttons-font-family);
+  font-size: 18px;
 }
 .contact-details {
   display: block;
+  padding-bottom: 20px;
+}
+.email-info a {
+  text-decoration: none;
+  color: #fef8f8;
 }
 .footer-menu {
   list-style: none;
 }
+.footer-menu li {
+  margin-top: 5px;
+  margin-left: 40px;
+}
 .footer-menu a {
   text-decoration: none;
-  color: white;
+  color: #fef8f8;
+  line-height: 1.5;
+}
+.footer-icon-links {
+  font-size: 30px;
+  margin-top: 42px;
+}
+.footer-icon-links a {
+  color: #fef8f8;
+  padding: 12px;
 }
 
 @media (max-width: 576px) {
