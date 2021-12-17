@@ -318,6 +318,9 @@ footer {
   .contact-img {
     max-width: 90%;
   }
+  .signature {
+    padding: 0 60px;
+  }
 }
 
 @media (max-width: 576px) {
@@ -558,6 +561,77 @@ footer {
 .eight-icons {
   margin: 190px auto;
 }
+
+@media (max-width: 1024px) {
+  .about-logo-items {
+    margin-left: 25px;
+  }
+  .about-description {
+    margin-left: 150px;
+    font-size: 22px;
+    line-height: 36px;
+  }
+  .profile-image {
+    margin-left: 65px;
+  }
+  .icons-large {
+    margin-left: -40px;
+  }
+  .eight-icons {
+    margin-left: 30px;
+  }
+  .seo-img {
+    margin-left: -77px;
+    margin-top: 10px;
+  }
+  .responsive-img {
+    margin-top: 55px;
+  }
+}
+
+/* for tablets */
+@media (max-width: 768px) {
+  .about-section {
+    padding-top: 20px;
+  }
+  .about-logo-items {
+    margin-left: 30px;
+  }
+
+  .about-description {
+    font-size: 20px;
+    line-height: 1.5;
+    max-width: 245px;
+    margin-left: 65px;
+  }
+  .profile-image {
+    max-width: 120px;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+  .profile-image {
+    max-width: 200px;
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+  .html-css-js-img {
+    margin-top: 50px;
+  }
+  .seo-img {
+    margin: 0;
+  }
+
+  .third-row-icons {
+    margin-left: 165px;
+  }
+  .eight-icons {
+    margin: 0 auto 80px;
+  }
+  .icons-large {
+    margin-left: 0;
+  }
+}
+
 /* for mobile phones */
 @media (max-width: 576px) {
   .about-logo-items {
@@ -579,6 +653,7 @@ footer {
     max-width: 120px;
     border-radius: 20px;
     margin-top: 15px;
+    margin-left: 0;
   }
   .contact-button {
     font-size: 14px;
@@ -602,6 +677,9 @@ footer {
   }
   .first-row-icons {
     margin-bottom: 40px;
+  }
+  .third-row-icons {
+    margin-left: 0;
   }
   .hosting-img {
     margin-top: 10px;
@@ -648,71 +726,5 @@ footer {
   }
   .responsive-img {
     margin-left: -30px;
-  }
-}
-/* for tablets */
-@media (min-width: 577px) and (max-width: 768px) {
-  .about-section {
-    padding-top: 20px;
-  }
-  .about-logo-items {
-    margin-left: 30px;
-  }
-
-  .about-description {
-    font-size: 20px;
-    line-height: 1.5;
-    max-width: 245px;
-    margin-left: 65px;
-  }
-  .profile-image {
-    max-width: 120px;
-    border-radius: 20px;
-    margin-top: 15px;
-  }
-  .profile-image {
-    max-width: 200px;
-    border-radius: 20px;
-    margin-top: 30px;
-  }
-  .html-css-js-img {
-    margin-top: 50px;
-  }
-  .seo-img {
-    margin: 0;
-  }
-
-  .third-row-icons {
-    margin-left: 165px;
-  }
-  .eight-icons {
-    margin: 0 auto 80px;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .about-logo-items {
-    margin-left: 25px;
-  }
-  .about-description {
-    margin-left: 150px;
-    font-size: 22px;
-    line-height: 36px;
-  }
-  .profile-image {
-    margin-left: 65px;
-  }
-  .icons-large {
-    margin-left: -40px;
-  }
-  .eight-icons {
-    margin-left: 30px;
-  }
-  .seo-img {
-    margin-left: -77px;
-    margin-top: 10px;
-  }
-  .responsive-img {
-    margin-top: 55px;
   }
 }
