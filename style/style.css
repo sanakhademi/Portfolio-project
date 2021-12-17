@@ -135,7 +135,7 @@ h2 {
   background-color: var(--baby-blue);
   max-width: 100%;
   text-align: center;
-  padding: 50px;
+  padding: 50px 0 80px;
 }
 .contact-header {
   font-size: 36px;
@@ -148,20 +148,11 @@ h2 {
   margin: 20px auto 0px;
   font-weight: 500;
 }
-.contact-form {
-  margin: 40px auto;
-}
-.name-box {
-  max-width: 40%;
-  margin: 10px auto 20px;
-  border-radius: 15px;
-  color: rgba(0, 0, 0, 0.3);
-}
-.text-area {
-  width: 40%;
-  margin: 10px auto;
-  border-radius: 15px;
-  color: rgba(0, 0, 0, 0.3);
+
+.contact-img {
+  max-width: 50%;
+  border-radius: 70px;
+  float: right;
 }
 .connect-button {
   background-color: var(--primary-color);
@@ -169,11 +160,12 @@ h2 {
   font-size: 16px;
   font-family: var(--menu-buttons-font-family);
   font-weight: bold;
-  padding: 14px 16px;
+  padding: 16px;
   border-radius: 8px;
-  margin: 32px auto 0;
+  margin: 70px;
   line-height: 27px;
   max-width: 200px;
+  float: left;
 }
 .connect-button:hover {
   color: var(--light-pink);
@@ -318,10 +310,14 @@ footer {
   .text-area {
     width: 70%;
   }
+  .contact-img {
+    max-width: 90%;
+  }
   .connect-button {
-    font-size: 14px;
-    padding: 12px 16px;
+    font-size: 12px;
+    padding: 8px;
     line-height: 24px;
+    margin: 50px 0px 0px 170px;
   }
   footer {
     font-size: 12px;
@@ -349,7 +345,7 @@ footer {
   }
 }
 
-@media (min-width: 577px) and(max-width: 768px) {
+@media (min-width: 577px) and(max-width: 769px) {
   h1 {
     font-size: 68px;
     line-height: 2;
@@ -398,6 +394,9 @@ footer {
     max-width: 50%;
     margin: 20px auto 0px;
     font-weight: 500;
+  }
+  .contact-img {
+    max-width: 90%;
   }
 }
 @media (min-width: 769px) and (max-width: 1200px) {
