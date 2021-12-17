@@ -69,6 +69,9 @@ h2 {
   font-size: 40px;
   margin-top: 40px;
 }
+.logo-items a:hover {
+  opacity: 70%;
+}
 
 .greeting {
   margin-bottom: 0;
@@ -93,8 +96,6 @@ h2 {
 }
 .about-button:hover {
   color: var(--light-pink);
-
-  background-color: var(--primary-color);
 }
 .second-row {
   background-color: var(--light-pink);
@@ -194,9 +195,20 @@ footer {
   display: block;
   padding-bottom: 20px;
 }
+
+.contact-details a {
+  text-decoration: none;
+  color: #fef8f8;
+}
+.contact-details a:hover {
+  color: var(--light-pink);
+}
 .email-info a {
   text-decoration: none;
   color: #fef8f8;
+}
+.email-info a:hover {
+  color: var(--light-pink);
 }
 .footer-menu {
   list-style: none;
@@ -210,6 +222,9 @@ footer {
   color: #fef8f8;
   line-height: 1.5;
 }
+.footer-menu a:hover {
+  color: var(--light-pink);
+}
 .footer-icon-links {
   font-size: 30px;
   margin-top: 42px;
@@ -218,6 +233,9 @@ footer {
 .footer-icon-links a {
   color: #fef8f8;
   padding: 12px;
+}
+.footer-icon-links a:hover {
+  color: var(--light-pink);
 }
 .footer-second {
   font-size: 14px;
@@ -413,8 +431,8 @@ footer {
 }
 
 .about-description {
-  font-size: 32px;
-  line-height: 38px;
+  font-size: 24px;
+  line-height: 34px;
   font-family: var(--headings-text-font-family);
   font-weight: 500;
   text-align: left;
@@ -438,6 +456,9 @@ footer {
 }
 .about-logo-items a {
   color: black;
+}
+.about-logo-items a:hover {
+  opacity: 70%;
 }
 
 .contact-button {
